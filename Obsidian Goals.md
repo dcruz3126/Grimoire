@@ -15,7 +15,14 @@
 	- rankonsite
 	- amazon kdp
 - areas of life 
-	- health 
-	- body
+	- beauty
 	- mind
+	- business 
+	- finance 
+	- home
+	- fun & ent 
+	- learning
+- areas of interest
 - 
+
+
