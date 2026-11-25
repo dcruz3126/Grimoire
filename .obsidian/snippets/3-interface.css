@@ -1,0 +1,167 @@
+
+/* ==========================================
+   01 — FILE EXPLORER
+   ========================================== */
+
+.workspace-leaf-content[data-type="file-explorer"] {
+    background: var(--background-secondary);
+}
+
+.nav-folder-title,
+.nav-file-title {
+    border-radius: 5px;
+    margin-block: 2px;
+    transition: background 0.15s ease;
+}
+
+.nav-folder-title {
+    color: var(--purple-light);
+    font-weight: 600;
+}
+
+.nav-file-title {
+    color: var(--text-normal);
+}
+
+.nav-folder-title:hover,
+.nav-file-title:hover {
+    background: var(--background-modifier-hover);
+}
+
+.nav-file-title.is-active {
+    background: var(--background-modifier-active-hover);
+    box-shadow: inset 3px 0 var(--pink-medium);
+    color: var(--pink-light);
+    font-weight: 600;
+}
+
+.nav-folder-title-content,
+.nav-file-title-content {
+    line-height: 1.5;
+}
+
+/* Folder and file icons */
+
+.nav-folder-collapse-indicator {
+    color: var(--purple-light);
+}
+
+.nav-folder-title:hover .nav-folder-title-content {
+    color: var(--pink-light);
+}
+
+/* ==========================================
+   02 — TABS
+   ========================================== */
+
+.workspace-tab-header-container {
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.workspace-tab-header {
+    background: transparent;
+    border-radius: 6px 6px 0 0;
+    margin-inline: 2px;
+}
+
+.workspace-tab-header:hover {
+    background: var(--background-modifier-hover);
+}
+
+.workspace-tab-header.is-active {
+    background: var(--background-secondary-alt);
+    box-shadow: inset 0 -2px var(--pink-medium);
+}
+
+.workspace-tab-header.is-active .workspace-tab-header-inner-title {
+    color: var(--pink-light);
+    font-weight: 650;
+}
+
+/* ==========================================
+   03 — SIDEBARS
+   ========================================== */
+
+.workspace-split.mod-left-split,
+.workspace-split.mod-right-split {
+    background: var(--background-secondary);
+}
+
+.workspace-sidedock-vault-profile {
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+/* ==========================================
+   04 — RIBBON
+   ========================================== */
+
+.workspace-ribbon {
+    background: var(--background-secondary);
+    border-color: var(--background-modifier-border);
+}
+
+.side-dock-ribbon-action {
+    color: var(--text-muted);
+}
+
+.side-dock-ribbon-action:hover {
+    color: var(--pink-medium);
+    background: var(--background-modifier-hover);
+}
+
+/* ==========================================
+   05 — PROPERTIES
+   ========================================== */
+
+.metadata-container {
+    background: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.metadata-property {
+    border-radius: 5px;
+}
+
+.metadata-property:hover {
+    background: var(--background-modifier-hover);
+}
+
+.metadata-property-key {
+    color: var(--purple-light);
+}
+
+.metadata-property-value {
+    color: var(--text-normal);
+}
+
+/* ==========================================
+   06 — STATUS BAR
+   ========================================== */
+
+.status-bar {
+    background: var(--background-secondary);
+    border-top: 1px solid var(--background-modifier-border);
+    color: var(--text-muted);
+}
+
+/* ==========================================
+   07 — SCROLLBARS
+   ========================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--purple-dark);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--pink-dark);
+}

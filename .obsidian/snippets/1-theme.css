@@ -1,0 +1,101 @@
+
+/* ==========================================
+   01 — CENTRAL COLOR PALETTE
+   ========================================== */
+
+:root {
+    /* PURPLE */
+    --purple-darkest: #58105E;
+    --purple-dark: #81217F;
+    --purple-medium: #AD36A5;
+    --purple-light: #AD72B5;
+
+    /* PINK */
+    --pink-dark: #D94B9D;
+    --pink-medium: #F06AB5;
+    --pink-light: #F5A6D3;
+
+    /* SHARED ACCENTS */
+    --accent-primary: var(--purple-medium);
+    --accent-secondary: var(--pink-medium);
+
+    /* GENERAL */
+    --border-radius: 8px;
+    --border-width: 1px;
+}
+
+/* ==========================================
+   02 — DARK MODE
+   ========================================== */
+
+.theme-dark {
+    /* BACKGROUNDS */
+    --background-primary: #100D14;
+    --background-secondary: #19121F;
+    --background-secondary-alt: #211629;
+    --background-modifier-hover: #30213A;
+    --background-modifier-active-hover: #38243F;
+    --background-modifier-border: #49364F;
+
+    /* TEXT */
+    --text-normal: #EDE4EF;
+    --text-muted: #B9A9BE;
+    --text-faint: #827187;
+    --text-on-accent: #FFFFFF;
+
+    /* ACCENTS */
+    --interactive-accent: var(--purple-medium);
+    --interactive-accent-hover: var(--pink-medium);
+    --interactive-normal: #38243F;
+    --interactive-hover: #49364F;
+
+    /* PANELS AND CARDS */
+    --card-background: #211629;
+    --card-background-raised: #2B2034;
+
+    /* LINKS */
+    --link-color: #C17CCB;
+    --link-color-hover: var(--pink-medium);
+    --link-unresolved-color: var(--pink-dark);
+
+    /* SELECTION */
+    --text-selection: #70407866;
+}
+
+/* ==========================================
+   03 — LIGHT MODE
+   ========================================== */
+
+.theme-light {
+    /* BACKGROUNDS */
+    --background-primary: #F8F3F8;
+    --background-secondary: #F0E8F1;
+    --background-secondary-alt: #E9DFEB;
+    --background-modifier-hover: #EBDCEB;
+    --background-modifier-active-hover: #E3CDE2;
+    --background-modifier-border: #E3D5E5;
+
+    /* TEXT */
+    --text-normal: #332638;
+    --text-muted: #78677D;
+    --text-faint: #A493A9;
+    --text-on-accent: #FFFFFF;
+
+    /* ACCENTS */
+    --interactive-accent: var(--purple-dark);
+    --interactive-accent-hover: var(--pink-dark);
+    --interactive-normal: #F0E8F1;
+    --interactive-hover: #E3D5E5;
+
+    /* PANELS AND CARDS */
+    --card-background: #F0E8F1;
+    --card-background-raised: #FFFFFF;
+
+    /* LINKS */
+    --link-color: var(--purple-dark);
+    --link-color-hover: var(--pink-dark);
+    --link-unresolved-color: var(--pink-dark);
+
+    /* SELECTION */
+    --text-selection: #D94B9D33;
+}

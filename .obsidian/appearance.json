@@ -1,0 +1,9 @@
+{
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "1-theme",
+    "2-typography",
+    "3-interface",
+    "4-content-elements"
+  ]
+}

@@ -1,0 +1,172 @@
+
+/* ==========================================
+   01 — CALLOUTS
+   ========================================== */
+
+.callout {
+    --callout-radius: 8px;
+    border-radius: var(--callout-radius);
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    padding: 12px 14px;
+    margin-block: 1em;
+}
+
+.callout-title {
+    font-weight: 700;
+    color: var(--pink-light);
+}
+
+.callout-icon {
+    color: var(--purple-light);
+}
+
+.callout-content {
+    color: var(--text-normal);
+    line-height: 1.5;
+}
+
+/* Custom callout colors */
+
+.callout[data-callout="lore"],
+.callout[data-callout="character"],
+.callout[data-callout="history"] {
+    --callout-color: 173, 54, 165;
+}
+
+.callout[data-callout="secret"],
+.callout[data-callout="important"],
+.callout[data-callout="decision"] {
+    --callout-color: 217, 75, 157;
+}
+
+.callout[data-callout="question"] {
+    --callout-color: 173, 114, 181;
+}
+
+/* ==========================================
+   02 — TABLES
+   ========================================== */
+
+.markdown-rendered table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.markdown-rendered th {
+    background: var(--background-secondary-alt);
+    color: var(--pink-light);
+    font-weight: 700;
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered td {
+    padding: 9px 12px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered tr:nth-child(even) td {
+    background: var(--background-secondary);
+}
+
+.markdown-rendered tr:hover td {
+    background: var(--background-modifier-hover);
+}
+
+.markdown-rendered tr:last-child td {
+    border-bottom: none;
+}
+
+/* ==========================================
+   03 — LINKS
+   ========================================== */
+
+.markdown-rendered a.internal-link {
+    color: var(--link-color);
+    text-decoration: none;
+    text-decoration-color: transparent;
+    transition: color 0.15s ease;
+}
+
+.markdown-rendered a.internal-link:hover {
+    color: var(--link-color-hover);
+    text-decoration: underline;
+}
+
+.markdown-rendered a.internal-link.is-unresolved {
+    color: var(--link-unresolved-color);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.markdown-rendered a.external-link {
+    color: var(--purple-light);
+    text-decoration-color: var(--background-modifier-border);
+}
+
+.markdown-rendered a.external-link:hover {
+    color: var(--pink-medium);
+}
+
+/* ==========================================
+   04 — BLOCKQUOTES
+   ========================================== */
+
+.markdown-rendered blockquote {
+    background: var(--background-secondary);
+    border-left: 3px solid var(--purple-medium);
+    border-radius: 0 7px 7px 0;
+    padding: 10px 15px;
+    color: var(--text-muted);
+}
+
+/* ==========================================
+   05 — TAGS
+   ========================================== */
+
+.tag {
+    background: var(--background-secondary-alt);
+    color: var(--pink-light);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 20px;
+    padding: 2px 9px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.tag:hover {
+    background: var(--background-modifier-hover);
+    color: var(--pink-medium);
+}
+
+/* ==========================================
+   06 — LISTS
+   ========================================== */
+
+.markdown-rendered ul > li::marker {
+    color: var(--pink-medium);
+}
+
+.markdown-rendered ol > li::marker {
+    color: var(--purple-light);
+    font-weight: 700;
+}
+
+/* ==========================================
+   07 — CHECKBOXES
+   ========================================== */
+
+.markdown-rendered input[type="checkbox"] {
+    accent-color: var(--pink-medium);
+}
+
+.markdown-source-view.mod-cm6
+input[type="checkbox"] {
+    accent-color: var(--pink-medium);
+}

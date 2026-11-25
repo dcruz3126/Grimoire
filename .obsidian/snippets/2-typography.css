@@ -1,0 +1,147 @@
+
+/* ==========================================
+   01 — GENERAL TYPOGRAPHY
+   ========================================== */
+
+:root {
+    --font-size-normal: 16px;
+    --font-size-small: 13px;
+    --font-size-smaller: 11px;
+
+    --line-height-normal: 1.55;
+    --line-height-tight: 1.3;
+
+    --paragraph-spacing: 0.85em;
+}
+
+/* ==========================================
+   02 — BODY TEXT
+   ========================================== */
+
+.markdown-rendered,
+.markdown-source-view {
+    line-height: var(--line-height-normal);
+}
+
+.markdown-rendered p {
+    margin-block: var(--paragraph-spacing);
+}
+
+/* ==========================================
+   03 — HEADINGS
+   ========================================== */
+
+:root {
+    --h1-size: 2em;
+    --h2-size: 1.65em;
+    --h3-size: 1.4em;
+    --h4-size: 1.2em;
+    --h5-size: 1.05em;
+    --h6-size: 0.95em;
+}
+
+.markdown-rendered h1,
+.cm-header-1 {
+    color: var(--purple-darkest) !important;
+    font-size: var(--h1-size);
+    font-weight: 750;
+}
+
+.markdown-rendered h2,
+.cm-header-2 {
+    color: var(--pink-dark) !important;
+    font-size: var(--h2-size);
+    font-weight: 700;
+}
+
+.markdown-rendered h3,
+.cm-header-3 {
+    color: var(--pink-medium) !important;
+    font-size: var(--h3-size);
+    font-weight: 700;
+}
+
+.markdown-rendered h4,
+.cm-header-4 {
+    color: var(--purple-dark) !important;
+    font-size: var(--h4-size);
+    font-weight: 650;
+}
+
+.markdown-rendered h5,
+.cm-header-5 {
+    color: var(--pink-light) !important;
+    font-size: var(--h5-size);
+    font-weight: 650;
+}
+
+.markdown-rendered h6,
+.cm-header-6 {
+    color: var(--purple-light) !important;
+    font-size: var(--h6-size);
+    font-weight: 650;
+}
+
+/* ==========================================
+   04 — HEADING SPACING
+   ========================================== */
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+    line-height: var(--line-height-tight);
+    margin-top: 1.5em;
+    margin-bottom: 0.55em;
+}
+
+/* ==========================================
+   05 — LISTS
+   ========================================== */
+
+.markdown-rendered ul,
+.markdown-rendered ol {
+    padding-inline-start: 1.7em;
+    margin-block: 0.65em;
+}
+
+.markdown-rendered li {
+    margin-block: 0.2em;
+}
+
+/* ==========================================
+   06 — METADATA AND CAPTIONS
+   ========================================== */
+
+.metadata-property,
+.metadata-property-key,
+.metadata-property-value {
+    font-size: var(--font-size-small);
+}
+
+.markdown-rendered .internal-embed {
+    margin-block: 0.75em;
+}
+
+/* ==========================================
+   07 — BLOCKQUOTES
+   ========================================== */
+
+.markdown-rendered blockquote {
+    line-height: 1.5;
+    margin-block: 1em;
+}
+
+/* ==========================================
+   08 — TABLE TEXT
+   ========================================== */
+
+.markdown-rendered table {
+    font-size: 0.92em;
+}
+
+.markdown-rendered th {
+    font-weight: 700;
+}
