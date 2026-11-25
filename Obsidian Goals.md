@@ -16,6 +16,9 @@
 	- amazon kdp
 - areas of life 
 	- beauty
+		- hair 
+		- makeup
+		- clothes
 	- mind
 	- business 
 	- finance 
