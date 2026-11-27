@@ -26,7 +26,7 @@ added: 09/10/26 10:31
 
 1.  Peel and dice all veggies
 2. Blend on high until smooth
-3. Add sauce from [[Carne Guisada 2]]
+3. Add sauce from [[Carne Guisada]]
 4. Season to taste
 
 ## Sources

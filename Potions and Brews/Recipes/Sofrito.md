@@ -13,6 +13,36 @@ ingredients:
   - 
 added: 01/37/26 05:37
 ---
+## Ingredients
+
+- 3 Bunches of culantro
+- 3 bunches of cilantro
+- 2 cups pf garlic
+- 15 to 20 aji dulce
+- 3 or 4 large onions
+- 4-5 cubanelle peppers
+
+## Instructions
+
+1. Peel and chop ingredients
+2. Blend until chunky
+
+## Sources
+
+1. https://youtu.be/FgPb2r7E1Gc?is=YckqRyKikeqc2DDr
+2. 
+## Development Notes
+
+### Version 1 - Date
+
+**Changes:**
+
+**Result:**
+
+## Notes
+
+Added 01/37/26 05:37
+
 ###### Status
 ```meta-bind
 INPUT[select(
@@ -63,32 +93,3 @@ INPUT[select(
 ```
 
 
-## Ingredients
-
-- 3 Bunches of culantro
-- 3 bunches of cilantro
-- 2 cups pf garlic
-- 15 to 20 aji dulce
-- 3 or 4 large onions
-- 4-5 cubanelle peppers
-
-## Instructions
-
-1. Peel and chop ingredients
-2. Blend until chunky
-
-## Sources
-
-1. https://youtu.be/FgPb2r7E1Gc?is=YckqRyKikeqc2DDr
-2. 
-## Development Notes
-
-### Version 1 - Date
-
-**Changes:**
-
-**Result:**
-
-## Notes
-
-Added 01/37/26 05:37

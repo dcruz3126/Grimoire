@@ -13,10 +13,16 @@ ingredients:
   - 
 added: 09/01/26 06:17
 ---
+
 ## Ingredients
 
 - [[Carne Guisada]]
 - [[Sofrito]]
+- [[Masa de Pasteles]]
+- Achiote oil
+- String
+- Paper 
+- Guineo leaves
 
 ## Instructions
 
@@ -35,6 +41,7 @@ added: 09/01/26 06:17
 
 ## Notes
 
+
 Added 09/01/26 06:17
 
 10 guineos - 5 large mason jars
@@ -42,6 +49,8 @@ Added 09/01/26 06:17
 About 1 lb pumpkin 1 large mason jar 
 3/4 c achiote 
 3/4 c meat juice
+
+
 ###### Status
 ```meta-bind
 INPUT[select(
@@ -93,26 +102,3 @@ INPUT[select(
 ```
 
 
-## Ingredients
-
-- [[Carne Guisada]]
-- [[Sofrito]]
-
-## Instructions
-
-1. 
-
-## Sources
-
-1. 
-## Development Notes
-
-#### Version 1 
-
-**Changes:**
-
-**Result:**
-
-## Notes
-
-Added 09/01/26 06:17

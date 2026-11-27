@@ -16,9 +16,10 @@ added: 01/15/26 02:15
 ## Ingredients
 
 - 3lbs Pernil
-- 3 tbsp achiote
-- 2 tbsp Adobo
+- 3/4 tbsp Adobo
 - 2 tbsp Sazon
+- 1 tbsp minced garlic
+- 3 tbsp achiote
 - 1/2 cup sofrito
 - 1/2 can Tomato Sauce 
 - 4 cups chicken stock

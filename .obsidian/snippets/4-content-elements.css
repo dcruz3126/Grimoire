@@ -48,6 +48,8 @@
    02 — TABLES
    ========================================== */
 
+    /* TABLE CONTAINER */
+
 .markdown-rendered table {
     width: 100%;
     border-collapse: separate;
@@ -57,31 +59,42 @@
     overflow: hidden;
 }
 
-.markdown-rendered th {
-    background: var(--background-secondary-alt);
-    color: var(--pink-light);
+    /* TABLE HEADER — ALL COLUMNS */
+
+.markdown-rendered table thead th {
+    background: var(--table-header) !important;
+    color: var(--table-header-text) !important;
     font-weight: 700;
     text-align: left;
     padding: 10px 12px;
     border-bottom: 1px solid var(--background-modifier-border);
 }
 
-.markdown-rendered td {
+    /* TABLE BODY — ALL COLUMNS */
+
+.markdown-rendered table tbody td {
     padding: 9px 12px;
     border-bottom: 1px solid var(--background-modifier-border);
 }
 
-.markdown-rendered tr:nth-child(even) td {
-    background: var(--background-secondary);
+    /* ALTERNATING ROW COLORS */
+
+.markdown-rendered table tbody tr:nth-child(even) > td {
+    background: var(--table-row-alt) !important;
 }
 
-.markdown-rendered tr:hover td {
-    background: var(--background-modifier-hover);
+    /* HOVER EFFECT */
+
+.markdown-rendered table tbody tr:hover > td {
+    background: var(--background-modifier-hover) !important;
 }
 
-.markdown-rendered tr:last-child td {
+    /* LAST ROW */
+
+.markdown-rendered table tbody tr:last-child > td {
     border-bottom: none;
 }
+
 
 /* ==========================================
    03 — LINKS

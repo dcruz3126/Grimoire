@@ -31,6 +31,7 @@
    03 — HEADINGS
    ========================================== */
 
+
 :root {
     --h1-size: 2em;
     --h2-size: 1.65em;
@@ -39,6 +40,7 @@
     --h5-size: 1.05em;
     --h6-size: 0.95em;
 }
+
 
 .markdown-rendered h1,
 .cm-header-1 {
@@ -56,28 +58,28 @@
 
 .markdown-rendered h3,
 .cm-header-3 {
-    color: var(--pink-medium) !important;
+    color: var(--purple-dark) !important;
     font-size: var(--h3-size);
     font-weight: 700;
 }
 
 .markdown-rendered h4,
 .cm-header-4 {
-    color: var(--purple-dark) !important;
+    color: var(--pink-medium) !important;
     font-size: var(--h4-size);
     font-weight: 650;
 }
 
 .markdown-rendered h5,
 .cm-header-5 {
-    color: var(--pink-light) !important;
+    color: var(--purple-light) !important;
     font-size: var(--h5-size);
     font-weight: 650;
 }
 
 .markdown-rendered h6,
 .cm-header-6 {
-    color: var(--purple-light) !important;
+    color: var(--pink-light) !important;
     font-size: var(--h6-size);
     font-weight: 650;
 }

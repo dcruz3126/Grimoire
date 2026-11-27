@@ -36,6 +36,9 @@
     --background-modifier-hover: #30213A;
     --background-modifier-active-hover: #38243F;
     --background-modifier-border: #49364F;
+    --table-header: #3B2450;
+    --table-header-text: var(--purple-light);
+    --table-row-alt: #24182D;
 
     /* TEXT */
     --text-normal: #EDE4EF;
@@ -74,6 +77,9 @@
     --background-modifier-hover: #EBDCEB;
     --background-modifier-active-hover: #E3CDE2;
     --background-modifier-border: #E3D5E5;
+    --table-header: var(--purple-light);
+    --table-header-text: var(--pink-light);
+    --table-row-alt: #F0E8F1;
 
     /* TEXT */
     --text-normal: #332638;
